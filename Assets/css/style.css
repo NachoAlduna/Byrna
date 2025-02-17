@@ -1,7 +1,45 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(219, 219, 219);
     color: aliceblue; 
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
     font-style: normal;   
+}
+header {
+    width: 100%;
+    position: relative;
+}
+
+/* Estilos del carousel */
+.carousel-item {
+    height: 400px;
+}
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos del texto sobre las imágenes */
+.carousel-caption {
+    right: 15%;
+    left: auto;
+    bottom: 50%;
+    transform: translateY(50%);
+    max-width: 400px;
+    padding: 20px;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+/* Estilos del título */
+.carousel-caption h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+/* Estilos del párrafo */
+.carousel-caption p {
+    font-size: 1.1rem;
 }
